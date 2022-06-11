@@ -1,0 +1,27 @@
+const product1 ={
+    item : 'pencil',
+    model : 200,
+    quantity : 5000
+
+};
+const product2 ={
+    item : 'pen',
+    model : 200,
+    quantity : 3000
+
+};
+const product3 ={
+    item : 'pen',
+    model : 200,
+    quantity : 0
+
+};
+
+function stockamount(){
+    totalstock=(product1.quantity+product2.quantity+product3.quantity);
+    return totalstock;
+}
+
+console.log('the total number of stock on hand is eqaual to   ' + stockamount());
+PS C:\Users\bisrat\Desktop\source> node stockche
+the total number of stock on hand is eqaual to   8000
